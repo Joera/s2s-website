@@ -1,0 +1,146 @@
+ :root {
+    --bg: #0e0e0e;
+    --text: #fff;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    font-size: 1.0rem;
+  }
+
+.small-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+
+   .mid-container {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 6rem 0;
+  }
+
+  .large-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display:flex;
+  }
+
+  .full-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+   .center-row {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 6rem;
+   }
+
+
+   .sub-header {
+
+    margin: 6rem auto; 
+   }
+
+   .space-around {
+    justify-content: space-around;
+   }
+
+  /* NAV */
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    margin-bottom: 12rem;
+  }
+
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: var(--text);
+    /* text-decoration: none; */
+  }
+
+  .nav-links a:hover {
+    color: var(--text);
+  }
+
+
+  .value-item, .role-card, .site-generator, .card {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: calc(33% - 4rem);
+    padding: 2rem;
+  }
+
+   .width-50 {
+    max-width: calc(50% - 4rem);
+  }
+
+  .role-card {
+
+    align-items: flex-start;
+  }
+
+   .site-generator {
+     max-width: 100%;
+     margin:4rem 0;
+   }
+
+  .role-card h3, .site-generator h3, .card h3 {
+
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: .5rem;
+  }
+
+  .role-card ul, .site-generator ul {
+    list-style: disc;
+  }
+
+
+  #cta {
+
+    margin: 18rem auto 12rem auto;
+  } 
+
+
+  #cta a {
+    color: white
+  }
+
+  footer {
+    padding: 3rem 0;
+  }
+ 
+
+
+
+
