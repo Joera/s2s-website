@@ -1,0 +1,1 @@
+scp -r * joera:/srv/s2s/
